@@ -1,0 +1,25 @@
+{
+  "name": "youtube-app-by-zoe",
+  "version": "1.0.0",
+  "description": "A minimal Youtube desktop application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "package-mac": "electron-packager . --overwrite --platform=darwin --arch=x64 --icon=icon/yt_icon.icns --prune=true --out=release-builds",
+    "package-win": "electron-packager . electron-tutorial-app --overwrite --asar=true --platform=win32 --arch=ia32 --icon=icon/yt_icon_64.ico --prune=true --out=release-builds --version-string.CompanyName=AIR --version-string.FileDescription=TEST --version-string.ProductName=\"Youtube App By Zoe\"",
+    "package-linux": "electron-packager . electron-tutorial-app --overwrite --asar=true --platform=linux --arch=x64 --icon=icon/yt_icon_64.png --prune=true --out=release-builds"
+  },
+  "repository": "https://github.com/electron/electron-quick-start",
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "author": "GitHub",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^2.0.0"
+  }
+}
