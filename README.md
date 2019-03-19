@@ -1,6 +1,6 @@
 # How To Use (For Mac OS only)
-go to "/release-builds/youtube-app-by-zoe-darwin-x64/youtube-app-by-zoe.app/Contents/MacOS/"
-open app "youtube-app-by-zoe"
+1. go to "/release-builds/youtube-app-by-zoe-darwin-x64/youtube-app-by-zoe.app/Contents/MacOS/"
+2. open app "youtube-app-by-zoe"
 
 
 # electron-quick-start
